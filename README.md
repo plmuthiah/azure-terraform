@@ -7,8 +7,11 @@ Git Commands
 To Verify if there are any changes to the code
 # git status
 
-To add the code to the existing repo
+To Track it to the existing code
 #git add - A
 
 To merge with the branch
 #git commit -m "Uploading the code" 
+
+#git push
+
