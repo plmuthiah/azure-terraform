@@ -8,5 +8,19 @@ $To see the list of Directory in the Account$
 #creating a service principal account that can be used by terraform provider to be authenticated by Azure
 #az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/SUBSCRIPTION_ID"
 
+#####################################KEY VAULT IMPORTANT ##############################################
+Configuration Variable      Environment Variables
+Provder block
+
+Subscription_id             ARM_SUBSCRIPTION_ID
+tenant_id                   ARM_TENANT_ID
+client_id                   ARM_CLIENT_ID
+client_secret	            ARM_CLIENT_SECRET
+
+Backend block
+sas_token                   ARM_SAS_TOKEN
+access_key                  ARM_ACCESS_KEY
+
+#########################################################################################################
 
 
